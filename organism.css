@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Faustina:ital,wght@1,300&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif&family=Playfair+Display&family=Poppins:wght@500&family=Roboto:wght@300;400&display=swap");
+
+
+  .lato-thin {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    padding: 0px 10px 0px 10px;
+  }
+
+  .lato-light {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .lato-bold {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  .lato-thin-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  .lato-light-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .lato-regular-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  .lato-bold-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .lato-black-italic {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+.orga_main_section {
+ 
+}
+/* header */
+body > div {
+
+  text-align: center;
+  padding: 10%;
+  background-image: url("images/freshe_leaf.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: top;
+}
+
+body > div > h1 {
+  font-family: "Protest Riot", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: xx-large;
+  border: none;
+  color: whitesmoke;
+}
+body > div > p {
+  color: rgb(192, 174, 142);
+}
+
+main > div {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: center;
+  column-gap: 12px;
+  row-gap: 10px;
+}
+.organism_sub_div_class {
+  padding-top: 0px;
+  justify-content: center;
+  background-color: white;
+  border-radius: 8px;
+}
+
+/* main */
+.orga_main_sub_section {
+padding: 30px;
+}
+.organism_sub_div_class
+{
+  padding: 12px;
+}
+
+
+
+main {
+  background-color: rgb(219, 216, 216);
+  padding-bottom: 12px;
+}
+main>div>div>h4
+{
+  color: greenyellow;
+}
+/* footer */
+footer {
+  background-image: url(images/carrort2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+  padding: 12px;
+
+}
+h4 {
+  color: whitesmoke;
+}
+
+footer>div>p{
+  color: white;
+}
+.explore {
+  display: flex;
+  flex-direction: column;
+}
+.explore > a {
+  text-decoration: none;
+  color: greenyellow;
+}
+.copyright {
+  grid-area: 2 / span 2;
+  font-weight: 600;
+}
+span
+{
+  color: greenyellow;
+}
+.socialmedia {
+  grid-area: 2 / span 2;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-right: 50px;
+}
+.fa {
+  text-align: center;
+  text-decoration: none;
+  color: greenyellow;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook,
+.fa-twitter {
+  border-radius: 12px;
+  padding: 8px;
+}
+#feedback_input {
+  position: relative;
+}
+#feedback_btn {
+position: absolute;
+background-color: greenyellow;
+color: black;
+
+}
+
+
